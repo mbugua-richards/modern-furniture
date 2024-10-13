@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cosmic Comfort: Modern Space Furniture</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <canvas id="space-background"></canvas>
     <nav>
-        <ul>
-            <li><a href="#" id="home-link">Home</a></li>
-            <li><a href="#" id="gallery-link">Gallery</a></li>
-        </ul>
+      <ul>
+        <li><a href="#" id="home-link">Home</a></li>
+        <li><a href="#" id="gallery-link">Gallery</a></li>
+      </ul>
     </nav>
     <div class="container">
-        <div id="home-page">
-            <h1>Cosmic Comfort: Modern Space Furniture</h1>
-            <div id="featured-product">
-                <h2>Featured: Nebula Sofa</h2>
-                <img src="/../images/Sofa.jpg" alt="Nebula Sofa" id="featured-image">
-                <p>Experience unparalleled comfort with our flagship Nebula Sofa.</p>
-            </div>
+      <div id="home-page">
+        <h1>Cosmic Comfort: Modern Space Furniture</h1>
+        <div id="featured-product">
+          <h2>Featured: Nebula Sofa</h2>
+          <img
+            src="/../images/Sofa.jpg"
+            alt="Nebula Sofa"
+            id="featured-image"
+          />
+          <p>Experience unparalleled comfort with our flagship Nebula Sofa.</p>
         </div>
-        <div id="gallery-page" style="display: none;">
-            <h2>Our Cosmic furniture Collection</h2>
-            <div class="product-grid" id="product-grid"></div>
-        </div>
+      </div>
+      <div id="gallery-page" style="display: none">
+        <h2>Our Cosmic furniture Collection</h2>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
     </div>
     <div id="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <img id="modal-product-image" alt="Product Image" class="modal-product-image">
-            <div id="product-3d-view"></div>
-            <h2 id="modal-product-name"></h2>
-            <p id="modal-product-description"></p>
-            <p id="modal-product-price"></p>
-        </div>
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img
+          id="modal-product-image"
+          alt="Product Image"
+          class="modal-product-image"
+        />
+        <div id="product-3d-view"></div>
+        <h2 id="modal-product-name"></h2>
+        <p id="modal-product-description"></p>
+        <p id="modal-product-price"></p>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
